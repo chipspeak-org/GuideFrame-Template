@@ -60,4 +60,4 @@ Finally, each `guide_step` features a default argument for `order`. The default 
 
 ### Demo Workflow
 The `render.yaml` workflow is triggered on push events and works to run the GuideFrame script on a GitHub runner before uploading the result as an artefact. The logic of the
-workflow should be apparent. It once again serves as a simple starting point but it is advised to avoid manipulating the steps
+workflow should be apparent. It once again serves as a simple starting point but it is advised to avoid manipulating the `Run Main Script With Display started` job in order to avoid compromising the render.
