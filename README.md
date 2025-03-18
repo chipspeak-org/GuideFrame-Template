@@ -50,7 +50,7 @@ an 'order' argument. To illustrate this further, lets use an example from the de
       )
 ```
 
-Within the above example, '5' is passed as the step argument. This always corresponds to the step within the matching markdown file. This text is in turn passed
+Within the above example, '5' is passed as the step argument. This must always correspond to the step within the matching markdown file. This text is in turn passed
 to the audio logic to create the voiceover and match it to the appropriate video step.
 
 `lambda` allows you to pass a function from the selenium-sdk. A wide range of functions is available within this sdk and is detailed in the GuideFrame docs
