@@ -1,26 +1,66 @@
-## Step 1 
-First, let's open tutors.dev. On this page we see the web toolkit, in addition to any courses we may recently have accessed.
+## Step 1
+This video serves as a demonstration of guideframe's use of selenium functions. We'll achieve this via the Magento testing site.
+
 
 ## Step 2
-Before we go any further, let's change to dark mode using the layout button in the top right of the screen.
+We can use the click element function by passing in the elements I D. Let's use that to sign in.
+
 
 ## Step 3
-Now that we're in dark mode, let's navigate to the docs page by clicking the docs button under the web toolkit
+We can use the form fields here to demonstrate the type into fields function, which takes the element I D and the text you wish to pass as arguments.
+
 
 ## Step 4
-On the docs page, we can see a number of cards. Each of these cards leads to a specific portion of the getting started guide.
+Now that we've filled the form, we can use the click element function again to sign in with these credentials.
+
 
 ## Step 5
-The getting started card introduces the basic design model of tutors.
+Next, we'll demonstrate the hover over element function by hovering over the gear dropdown in the navbar. This function takes an h ref as an argument. It is then used in an X path filter to locate the appropriate element.
+
 
 ## Step 6
-The simple starter card provides a helpful template course.
+We'll once again use the click element function to select the fitness equipment link.
+
 
 ## Step 7
-The alternative starter card provides an example course to demonstrate layouts and nesting.
+Now we'll hover over the yoga companion kit using the same hovering function.
+
 
 ## Step 8
-The reference course contains another example course. This one contains all Tutors learning objects for demonstration.
+Then we can move on to hover over the yoga straps.
+
 
 ## Step 9
-Finally, let's return to the getting started card and click it to demonstrate the getting started page.
+Then the strength band kit.
+
+
+## Step 10
+Before returning to the yoga straps, this time using the hover and click function in order to first hover, then click on the link.
+
+
+## Step 11
+Next, let's hover over the reviews section on the product page.
+
+
+## Step 12
+We can use the open link in new tab function here to open the reviews section in a new tab and switch to it.
+
+
+## Step 13
+Let's enter some text here using the same function for fields that we did earlier.
+
+
+## Step 14
+Now we can click on the submit review button using the same functionality we've been using throughout.
+
+
+## Step 15
+We can use the switch to tab function to return to the original tab by passing the tab index as an argument.
+
+
+## Step 16
+Now that we're on the original tab, let's click the dropdown in the top right of the screen. We do this by using the click on button via span text function once again.
+
+
+## Step 17
+Finally, let's click the sign out button to end this demonstration.
