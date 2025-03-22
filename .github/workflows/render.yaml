@@ -3,7 +3,7 @@ name: GuideFrame Video Render
 on: [push]
 # All jobs in the workflow
 jobs:
-  tutors-test:
+  magento-test:
     runs-on: ubuntu-latest
     # steps to run
     steps:
