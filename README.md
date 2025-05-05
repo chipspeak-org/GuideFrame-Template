@@ -1,4 +1,4 @@
-# GuideFrame-Template
+# GuideFrame-Template 2
 This repository exists as a template to allow users to experiment with GuideFrame.
 
 it includes:
